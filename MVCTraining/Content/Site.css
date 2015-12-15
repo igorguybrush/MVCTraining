@@ -1,5 +1,5 @@
 ﻿body {
-    font-size: .85em;
+    font-size: 2.2em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: #232323;
     background-color: #fff;
@@ -14,7 +14,7 @@ header, footer, nav, section {
 -----------------------------------------------------------*/
 fieldset {
     border: 1px solid #ddd;
-    padding: 0 1.4em 1.4em 1.4em;
+    padding: 0 1.0em 1.0em 1.0em;
     margin: 0 0 1.5em 0;
 }
 
@@ -58,4 +58,23 @@ textarea {
 
 .validation-summary-valid {
     display: none;
+}
+
+tr {
+    font-size: 1.0em;
+}
+
+.display-label {
+    font-weight: bold;
+    background-color: #f4f4ff;
+}
+
+.display-field {
+    font-size: 1.2em;
+    padding-bottom: 1.0em;
+}
+
+.buttons { 
+    padding-top: 2.0em;
+    font-size: 1.2em
 }
